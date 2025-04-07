@@ -1,5 +1,5 @@
-            - name: Setup Node.js environment
-  uses: actions/setup
+- name: Download a Build Artifact
+  uses: actions/download-artifact@v4.2.1
   with: node@v4.3.0
     # Set always-auth in npmrc.
     always-auth: # optional, default is false
